@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "node src/scripts/build.js",
     "lint": "stylelint \"./**/*.scss\" --custom-syntax postcss-scss",
     "lint:fix": "npm run lint -- --fix",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -21,6 +22,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "node-sass": "^8.0.0",
     "normalize-scss": "^7.0.1"
   },
   "devDependencies": {
