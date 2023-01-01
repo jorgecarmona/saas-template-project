@@ -6,7 +6,8 @@
   "scripts": {
     "lint": "stylelint \"./**/*.scss\" --custom-syntax postcss-scss",
     "lint:fix": "npm run lint -- --fix",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
   },
   "husky": {
     "hooks": {
@@ -23,7 +24,7 @@
     "normalize-scss": "^7.0.1"
   },
   "devDependencies": {
-    "husky": "^8.0.2",
+    "husky": "^8.0.0",
     "lint-staged": "^13.1.0",
     "postcss": "^8.4.20",
     "prettier": "^2.8.1",
