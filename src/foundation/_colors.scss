@@ -1,0 +1,60 @@
+/**
+ *
+ * This file defines the colors that will be used for styling mainly for ATOMS. They will default to the palette
+ * we defined in the _variable.scss file. This is our default palette, and devs can override this
+ * with their own variables.
+ *
+ */
+
+/*=============================================
+ =            Global text colors               =
+ =============================================*/
+
+$body-text-color: var(--dse-body-text-color, $dark) !default;
+$body-bg-color: var(--dse-body-bg-color, $white) !default;
+
+/*=============================================
+ =            Buttons                          =
+ =============================================*/
+
+$btn-primary-color: var(--dse-btn-primary-color, $white) !default;
+$btn-primary-bg: var(--dse-btn-primary-bg, $green) !default;
+$btn-primary-bg-hover: var(--dse-btn-primary-bg-hover, $green-light) !default;
+
+$btn-secondary-color: var(--dse-btn-secondary-color, $white) !default;
+$btn-secondary-bg: var(--dse-btn-secondary-bg, $dark) !default;
+
+/*=============================================
+ =            Forms                            =
+ =============================================*/
+
+$form-color: var(--dse-form-color, $dark) !default;
+$form-bg: var(--dse-form-bg, $white) !default;
+$form-error-color: var(--dse-form-error-color, $red) !default;
+$form-error-border: var(--dse-form-error-border, $red) !default;
+$form-border-focus-color: var(--dse-form-border-focus-color, $green) !default;
+
+/*=============================================
+ =            Body                             =
+ =============================================*/
+
+$body-font-size: var(--dse-body-font-size, $fs-base) !default;
+$body-font-weight: var(--dse-body-font-weight, $fs-normal) !default;
+
+/*=============================================
+ =            Headings                         =
+ =============================================*/
+
+$h1-font-size: var(--dse-h1-font-size, $h-1) !default;
+$h2-font-size: var(--dse-h2-font-size, $h-2) !default;
+$h3-font-size: var(--dse-h3-font-size, $h-3) !default;
+$h4-font-size: var(--dse-h4-font-size, $h-4) !default;
+$h5-font-size: var(--dse-h5-font-size, $h-5) !default;
+$h6-font-size: var(--dse-h6-font-size, $h-6) !default;
+
+$h1-font-weight: var(--dse-h1-font-weight, $fw-medium) !default;
+$h2-font-weight: var(--dse-h2-font-weight, $fw-medium) !default;
+$h3-font-weight: var(--dse-h3-font-weight, $fw-medium) !default;
+$h4-font-weight: var(--dse-h4-font-weight, $fw-normal) !default;
+$h5-font-weight: var(--dse-h5-font-weight, $fw-normal) !default;
+$h6-font-weight: var(--dse-h6-font-weight, $fw-light) !default;

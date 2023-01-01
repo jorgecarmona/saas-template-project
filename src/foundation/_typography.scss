@@ -1,0 +1,59 @@
+/*=============================================
+=            Foundation - Typography          =
+=============================================*/
+
+/**
+ * This file defines the default font sizes to be used on headings and texts. The defaults come
+ * from the palette defined in _variables.scss.
+ */
+
+/*=============================================
+ =            Body text sizes                  =
+ =============================================*/
+
+$body-font-size: var(--dse-body-font-size, $fs-sm) !default;
+$body-font-weight: var(--dse-body-font-weight, $fw-normal) !default;
+
+/*=============================================
+ =            Heading line-heights             =
+ =============================================*/
+
+$h1-line-height: var(--dse-h1-line-height, $h1-line-height) !default;
+$h2-line-height: var(--dse-h2-line-height, $h2-line-height) !default;
+$h3-line-height: var(--dse-h3-line-height, $h3-line-height) !default;
+$h4-line-height: var(--dse-h4-line-height, $h4-line-height) !default;
+$h5-line-height: var(--dse-h5-line-height, $h5-line-height) !default;
+$h6-line-height: var(--dse-h6-line-height, $h6-line-height) !default;
+
+/*=============================================
+ =            Heading line-heights             =
+ =============================================*/
+
+$h1-letter-spacing: var(--dse-h1-letter-spacing, $h1-letter-spacing) !default;
+$h2-letter-spacing: var(--dse-h2-letter-spacing, $h2-letter-spacing) !default;
+$h3-letter-spacing: var(--dse-h3-letter-spacing, $h3-letter-spacing) !default;
+$h4-letter-spacing: var(--dse-h4-letter-spacing, $h4-letter-spacing) !default;
+$h5-letter-spacing: var(--dse-h5-letter-spacing, $h5-letter-spacing) !default;
+$h6-letter-spacing: var(--dse-h6-letter-spacing, $h6-letter-spacing) !default;
+
+/*=============================================
+ =            Heading text sizes               =
+ =============================================*/
+
+$h1-font-size: var(--dse-h1-font-size, $h-1) !default;
+$h2-font-size: var(--dse-h2-font-size, $h-2) !default;
+$h3-font-size: var(--dse-h3-font-size, $h-3) !default;
+$h4-font-size: var(--dse-h4-font-size, $h-4) !default;
+$h5-font-size: var(--dse-h5-font-size, $h-5) !default;
+$h6-font-size: var(--dse-h6-font-size, $h-6) !default;
+
+/*=============================================
+ =            Heading font weights             =
+ =============================================*/
+
+$h1-text-weight: var(--dse-h1-text-weight, $fw-black) !default;
+$h2-text-weight: var(--dse-h2-text-weight, $fw-semibold) !default;
+$h3-text-weight: var(--dse-h3-text-weight, $fw-bold) !default;
+$h4-text-weight: var(--dse-h4-text-weight, $fw-medium) !default;
+$h5-text-weight: var(--dse-h5-text-weight, $fw-normal) !default;
+$h6-text-weight: var(--dse-h6-text-weight, $fw-light) !default;
